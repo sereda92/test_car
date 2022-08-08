@@ -1,0 +1,97 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding: 0px; */
+    position: relative;
+    /* width: 1920px; */
+    /* height: 4074px; */
+    /* left: 0px; */
+    /* top: 0px; */
+    
+    background: #031923
+}
+/* .header{
+    width: 1920px;
+    height: 112px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+} */
+
+.imgStyle{
+    /* position: relative; */
+    top: 8;
+    left: 128;
+}
+
+.imgStyle{
+    /* background: none; */
+    position: relative;
+    width: 194px;
+    height: 112px;
+    left: 128px;
+    top: 8px;
+    }
+
+/* .navOne{
+
+    position: absolute;
+    left: 621px;
+    top: 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @font-face{
+    font-family: 'GilroyRegular';
+    src: local(),
+     url('./karting/lang/Gilroy-Regular.woff');
+    font-style: norma1;
+    font-weight: norma1;
+}
+@font-face {
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./lang/dotgothic16-v15-latin-regular.woff2') format('woff2'),
+         url('./lang/dotgothic16-v15-latin-regular.woff') format('woff');
+} */

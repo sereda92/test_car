@@ -1,0 +1,255 @@
+.header{
+    width: 1920px;
+    height: 112px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.body{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+/* position: absolute; */
+width: 1920px;
+height: 4074px;
+left: 0px;
+top: 0px;
+
+position: relative;
+width: 1920px;
+height: 4081px;
+background: #031923
+
+
+}
+
+.imgStyle{
+background: none;
+position: absolute;
+width: 194px;
+height: 112px;
+left: 120px;
+top: 0px;
+}
+
+.navOne{
+position: absolute;
+width: 1179px;
+height: 26px;
+left: 621px;
+top: 43px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 48px;
+}
+
+.one{
+    width: 141px;
+height: 26px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+color: #00FFA3;
+flex: none;
+order: 0;
+flex-grow: 0;
+text-decoration: none;
+margin-right: 48px;
+}
+
+.two{
+    width: 52px;
+    height: 21px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-decoration: none;
+    margin-right: 48px;
+}
+.hero{
+width: 1920px;
+height: 802px;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+background: url(./img/bg\ vector.png) no-repeat;
+/* position: relative;
+width: 1920px;
+height: 945px;
+left: 0px;
+top: -100px; */
+
+}
+
+/* ====================================== */
+/* .heroSection{
+    width: 1920px;
+    height: 802px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+} */
+.heroOne{
+    position: relative;
+    width: 1920px;
+    height: 945px;
+    left: 0px;
+    top: 0px;
+    
+}
+.textHero{
+    position: absolute;
+    width: 634px;
+    height: 40px;
+    left: 610px;
+    top: 630px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+.myBut{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 286px;
+    height: 59px;
+    left: 755px;
+    top: 705px;
+    
+}
+.butOne{
+    box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 48px;
+gap: 10px;
+
+width: 286px;
+height: 59px;
+
+/* Gradiant */
+background: linear-gradient(180deg, #00D8A4 0%, #009470 100%);
+box-shadow: 6px 6px 17px rgba(3, 23, 32, 0.46);
+border-radius: 20px 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.textHeroTwoo{
+    position: absolute;
+    left: 17.92%;
+    right: 17.86%;
+    top: 55%;
+    bottom: 30%;
+    
+    font-family:'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 84px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.2em;
+    
+    /* White */
+    color: #FFFFFF;
+}
+
+.Cars{
+width: 1920px;
+height: 917px;
+flex: none;
+order: 2;
+flex-grow: 0;
+/* background: url(./img/Carts.png) no-repeat; */
+
+}
+.titleCars{
+position: absolute;
+width: 616px;
+height: 84px;
+left: 1183px;
+top: 61px;
+
+}
+.textCars{
+position: absolute;
+left: 81.61%;
+right: 6.3%;
+top: 6.65%;
+bottom: 84.19%;
+
+font-family: 'DotGothic16';
+font-style: normal;
+font-weight: 400;
+font-size: 58px;
+line-height: 84px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.25em;
+
+/* White */
+color: #FFFFFF;
+
+}
+/* ======================================== */
+
+/* =============================== */
+/* header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fontOne{
+    font-family: 'GilroyRegular';
+    font-weight: bold;
+}
+
+ */
+@font-face{
+    font-family: 'GilroyRegular';
+    src: url(../karting/lang/Gilroy-Regular.woff);
+    font-style: norma1;
+    font-weight: norma1;
+}
+
+/* dotgothic16-regular - latin */
+@font-face {
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./lang/dotgothic16-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./lang/dotgothic16-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
